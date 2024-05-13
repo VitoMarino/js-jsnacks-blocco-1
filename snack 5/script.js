@@ -4,11 +4,14 @@
 
 const arry = [''];
 
-let question = Number.parseInt(prompt= 'Scrivi un numero');
+for (i = 0; i < 6; i++) {
+    const question = Number.parseInt(prompt = 'Scrivi un numero');
 
-if (question % 2===1)
+    if (question % 2===1)
         console.log(arry)
     else {
-        console.log()
+        console.log('')
     }
+}
+
 
