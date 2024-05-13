@@ -4,7 +4,7 @@
 const nomiInvitati = ['Riccardo', 'Giovanni', 'Nicola', 'Mario']
 let scriviNome = prompt('Scrivi il tuo nome per la festa')
 
-if (nomiInvitati === scriviNome) {
+if (nomiInvitati.includes(scriviNome)) {
     console.log('Benvenuto alla festa!!');
 } else {
     console.log('Il tuo nome non è nella lista. Addio!')
