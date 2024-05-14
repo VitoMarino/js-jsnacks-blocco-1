@@ -4,10 +4,8 @@
 
 const array = [];
 
-let N = Number.parseInt(prompt('Inserisci un numero'));
+for (i = 0; i >= 10; i++) {
+    let N = Number.parseInt(prompt('Inserisci un numero'));
+    Math.floor(Math.random (100)+ 1);
 
-Math.floor(Math.random (100)+ 1);
-
-for (i = 0; i >= 100; i++) {
-    
 }
